@@ -37,7 +37,7 @@ class UserController extends Controller
 
     public function show($id)
     {
-        return view('pages.dashboard');
+        return view('pages.user.index');
     }
 
     public function edit($id)
