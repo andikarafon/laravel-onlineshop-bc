@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.auth.login');
+    return redirect('home');
 });
 
 //pengecekan Login dahulu baru bisa akses aplikasi
